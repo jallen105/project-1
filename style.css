@@ -3,6 +3,7 @@ html, body {
     padding: 0;
 }
 
+/* cssgrid setup */
 body {
     display: grid;
     grid-template-columns: 20% 1fr 20%;
@@ -10,14 +11,32 @@ body {
     justify-content: center;
 }
 
-header, footer {
+/* Header content */
+header {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
 }
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav section {
+    display: flex;
+}
+
+header div.link {
+    margin: 0 10px;
+}
+
+/* Main content */
 main {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
 }
+
+/* Footer content*/
 footer {
     grid-column: 2 / 3;
     grid-row: 3 / 4;
