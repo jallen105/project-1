@@ -55,10 +55,22 @@ main section {
 .flex-img-ctr {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    justify-items: center;
 }
 
 /* Footer content*/
 footer {
     grid-column: 2 / 3;
     grid-row: 3 / 4;
+    align-self: end;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 150px;
+}
+
+footer p {
+    font-size: 15px;
 }
