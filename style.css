@@ -11,12 +11,15 @@ body {
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
+    background-color: #F2B272;
+    color: #704213;
 }
 
 /* Header content */
 header {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+    background-color: #BD6E20;
 }
 
 h1, h2 {
@@ -42,6 +45,7 @@ header div.link {
 main {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
+    background-color: #BD6E20;
 }
 
 main section {
@@ -62,15 +66,17 @@ main section {
 footer {
     grid-column: 2 / 3;
     grid-row: 3 / 4;
-    align-self: end;
+    background-color: #BD6E20;
 }
 
 footer nav {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 150px;
+    padding: 50px 0;
 }
 
 footer p {
     font-size: 15px;
+    position: fixed;
+    bottom: 0;
 }
