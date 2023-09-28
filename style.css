@@ -44,6 +44,19 @@ main {
     grid-row: 2 / 3;
 }
 
+main section {
+    margin: 15px 0;
+}
+
+#call-to-action {
+    text-align: center;
+}
+
+.flex-img-ctr {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 /* Footer content*/
 footer {
     grid-column: 2 / 3;
