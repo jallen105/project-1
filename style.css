@@ -28,6 +28,28 @@ a.link:hover {
     color: #735436;
 } */
 
+/* button style */
+
+.button {
+    background-color: #704213;
+    color: #F2B272;
+    margin: 0 auto;
+    height: 60px;
+    width: 125px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+}
+
+.button:active {
+    background-color: #A65A0E;
+    color: #29C3F2;
+}
+
 /* Header content */
 header {
     grid-column: 2 / 3;
