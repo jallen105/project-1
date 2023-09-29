@@ -7,19 +7,33 @@ html, body {
 body {
     display: grid;
     grid-template-columns: 20% 1fr 20%;
-    grid-template-rows: 20% 1fr 20%;
+    grid-template-rows: 15% 1fr 15%;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    background-color: #F2B272;
+    background-color: #BD6E20;
     color: #704213;
 }
+
+/* link styles */
+a.link {
+    color: #007FA6;
+}
+
+a.link:hover {
+    color: #29C3F2;
+}
+
+/* a.link:visited {
+    color: #735436;
+} */
 
 /* Header content */
 header {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-    background-color: #BD6E20;
+    background-color: #F2B272;
+    padding: 50px 20px;
 }
 
 h1, h2 {
@@ -37,7 +51,7 @@ header nav section {
     display: flex;
 }
 
-header div.link {
+header nav div {
     margin: 0 10px;
 }
 
@@ -45,7 +59,7 @@ header div.link {
 main {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
-    background-color: #BD6E20;
+    background-color: #F2B272;
 }
 
 main section {
@@ -62,11 +76,15 @@ main section {
     justify-items: center;
 }
 
+#blog-post {
+    padding: 0 20px;
+}
+
 /* Footer content*/
 footer {
     grid-column: 2 / 3;
     grid-row: 3 / 4;
-    background-color: #BD6E20;
+    background-color: #F2B272;
 }
 
 footer nav {
@@ -77,6 +95,7 @@ footer nav {
 
 footer p {
     font-size: 15px;
-    position: fixed;
+    position: relative;
     bottom: 0;
+    padding-left: 20px;
 }
